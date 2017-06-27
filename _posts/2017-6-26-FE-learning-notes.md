@@ -24,6 +24,8 @@ share: true
 
    [版本控制入门 – 搬进 Github](http://www.imooc.com/learn/390)
 
+<!--more-->
+
 3. Git命令行学习
 
    [Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
@@ -37,8 +39,6 @@ share: true
    [博客编写技巧](https://mmistakes.github.io/hpstr-jekyll-theme/)
 
    [Jekyll](http://jekyllcn.com/)
-
-<!--more-->
 
 5. PS模板素材下载
 
@@ -64,12 +64,12 @@ share: true
 
    [五种前端开发必备的调试技术](http://blog.csdn.net/coslay/article/details/49309269)
   
-  通过打断点你可以调试任何你想调试的地方
+   通过打断点你可以调试任何你想调试的地方
 
 10. 动态简历
 
-   [动态简历](https://qianlongo.github.io/resume-native/dist/)
+    [动态简历](https://qianlongo.github.io/resume-native/dist/)
 
 11. uri、url、urn
 
-   [[译]URL和URI的区别](http://www.cnblogs.com/hust-ghtao/p/4724885.html)   
+    [[译]URL和URI的区别](http://www.cnblogs.com/hust-ghtao/p/4724885.html)   
