@@ -60,7 +60,7 @@ share: true
 
 9. 前端单步调试
 
-   [Intellij IDEA调试功能使用总结](http://www.cnblogs.com/Bowu/p/4026117.html)
+   [WebStorm强大的调试JavaScript功能](http://blog.csdn.net/sujun10/article/details/54139560)
 
    [五种前端开发必备的调试技术](http://blog.csdn.net/coslay/article/details/49309269)
   
@@ -72,4 +72,16 @@ share: true
 
 11. uri、url、urn
 
-    [[译]URL和URI的区别](http://www.cnblogs.com/hust-ghtao/p/4724885.html)   
+    [[译]URL和URI的区别](http://www.cnblogs.com/hust-ghtao/p/4724885.html)
+
+12. phpstorm破解
+
+    [phpstorm的安装和破解](http://www.cnblogs.com/Worssmagee1002/p/6233698.html)
+
+13. Web前端优秀简历
+
+    [罗礼权](http://cv.heeroluo.net/)
+
+    [赵柯宇](http://www.flqin.com/#page2)
+
+    [动态简历](https://qianlongo.github.io/resume-native/dist/)
