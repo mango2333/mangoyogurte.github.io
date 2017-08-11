@@ -18,7 +18,7 @@ share: true
 
 jQuery插件开发就是扩展jQuery原型对象的方法，简单来说就是jQuery插件是jQuery对象的方法。
 
-1. 为什么是扩展jQuery原型对象而不是jQuery全局对象呢？
+1. 为什么是扩展jQuery原型对象而不是jQuery全局对象？
 
     因为我们知道jQuery的大部分内容都是围绕DOM操作，所以插件开发当然也是围绕jQuery对象的DOM操作。
 
@@ -58,7 +58,7 @@ jQuery插件开发就是扩展jQuery原型对象的方法，简单来说就是jQ
     ```javascript
     (function($){
         $.fn.changeStyle = function(colorStr){
-            this.css("color",colorStr);        
+            this.css("color",colorStr);
             return this;
         }
     }(jQuery));
@@ -69,7 +69,7 @@ jQuery插件开发就是扩展jQuery原型对象的方法，简单来说就是jQ
     ```javascript
     (function($){
         $.fn.changeStyle = function(colorStr，fontSize){
-            this.css("color",colorStr).css("fontSize",fontSize+"px");        
+            this.css("color",colorStr).css("fontSize",fontSize+"px");
             return this;
         }
     }(jQuery));
@@ -80,7 +80,7 @@ jQuery插件开发就是扩展jQuery原型对象的方法，简单来说就是jQ
     ```javascript
     (function($){
         $.fn.changeStyle = function(option){
-            this.css("color",option.colorStr).css("fontSize",option.fontSize+"px");        
+            this.css("color",option.colorStr).css("fontSize",option.fontSize+"px");
             return this;
         }
     }(jQuery));
@@ -97,7 +97,7 @@ jQuery插件开发就是扩展jQuery原型对象的方法，简单来说就是jQ
             var defaultSetting = {colorStr:"green",fontSize:12};
             //使用jQuery的extend方法,将参数对象合并到存储缺省值的对象
             var setting = $.extend(defaultSetting,option);
-            this.css("color",setting.colorStr).css("fontSize",setting.fontSize+"px");        
+            this.css("color",setting.colorStr).css("fontSize",setting.fontSize+"px");
             return this;
         }
     }(jQuery));
@@ -109,12 +109,12 @@ jQuery插件开发就是扩展jQuery原型对象的方法，简单来说就是jQ
 
     ```javascript
     (function($){
-        $.fn.extend({         
-            changeStyle:function(option){             
+        $.fn.extend({
+            changeStyle:function(option){
             var defaultSetting = { colorStr:"green",fontSize:12};
             var setting = $.extend(defaultSetting,option);
-            this.css("color",setting.colorStr).css("fontSize",setting.fontSize+"px");        
-            return this; 
+            this.css("color",setting.colorStr).css("fontSize",setting.fontSize+"px");
+            return this;
             }
         });
     }(jQuery));
