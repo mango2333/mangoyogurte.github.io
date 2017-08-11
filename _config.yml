@@ -39,8 +39,8 @@ bing_verify:
 links:
 #  - title: Theme Setup
 #    url: /theme-setup
-  - title: Works
-    url: https://mangoyogurte.github.io/works/wulifan.pdf
+  - title: Resume
+    url: https://mangoyogurte.github.io/resume.html
     external: true
 #  - title: GitHub
 #    url: https://github.com/mangoyogurte
